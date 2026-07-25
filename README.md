@@ -56,12 +56,12 @@
 
 | Project | Description | Tech Stack |
 |---------|-------------|------------|
-| 👁️ **Driver Drowsiness Detection** | Fine-tuned MobileNetV3-Small for eye-state classification on infrared images, achieving **98.2% accuracy** at ~185 FPS on CPU. Integrated MediaPipe for landmark tracking. | `PyTorch`, `OpenCV`, `MobileNetV3` |
-| 🧬 **[GPU-Accelerated MoA Prediction](https://github.com/PavinSP/moa-prediction-thesis)** | Multi-label classification for Mechanism of Action (MoA) prediction using GPU-accelerated XGBoost, PCA, and VarianceThreshold. | `XGBoost`, `CUDA`, `Python` |
 | 🔬 **CellFoundry: Foundation Models** | Benchmarked and fine-tuned vision foundation models (Micro-SAM, CellSAM) for adipocyte instance segmentation in brightfield microscopy. | `SAM Models`, `Medical Imaging` |
-| 🧠 **[SniffTest: Disinfo Detection](https://github.com/PavinSP/SniffTest-DIAL-Hackathon)** | Fine-tuned DistilBERT behind a Dockerized REST API for real-time disinformation detection. Led AI/ML workstream at the DAAD Hackathon. | `DistilBERT`, `Docker`, `FastAPI` |
 | 🏗️ **[ConStructAI](https://github.com/PavinSP/hackathon)** | GenAI-powered information extraction and routing pipeline with human-in-the-loop verification to prevent hallucinations. | `GenAI`, `Python`, `Prompt Eng` |
+| 🧠 **[SniffTest: Disinfo Detection](https://github.com/PavinSP/SniffTest-DIAL-Hackathon)** | Fine-tuned DistilBERT behind a Dockerized REST API for real-time disinformation detection. Led AI/ML workstream at the DAAD Hackathon. | `DistilBERT`, `Docker`, `FastAPI` |
+| 🧬 **[GPU-Accelerated MoA Prediction](https://github.com/PavinSP/moa-prediction-thesis)** | Multi-label classification for Mechanism of Action (MoA) prediction using GPU-accelerated XGBoost, PCA, and VarianceThreshold. | `XGBoost`, `CUDA`, `Python` |
 | 📄 **LLM Resume Screening** | Multi-step pipeline using LangChain and Azure OpenAI for structured information extraction. Published in TIJER (Vol 11, Issue 7). | `LangChain`, `Azure OpenAI` |
+| 👁️ **Driver Drowsiness Detection** | Fine-tuned MobileNetV3-Small for eye-state classification on infrared images, achieving **98.2% accuracy** at ~185 FPS on CPU. Integrated MediaPipe for landmark tracking. | `PyTorch`, `OpenCV`, `MobileNetV3` |
 
 <br/>
 
