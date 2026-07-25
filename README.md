@@ -29,10 +29,30 @@
     <td align="center" width="25%"><b>Cloud & DevOps</b></td>
   </tr>
   <tr>
-    <td align="center"><img src="https://skillicons.dev/icons?i=python,ts,js,cpp,c,java,sql&perline=4" /></td>
-    <td align="center"><img src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv,matlab&perline=3" /></td>
-    <td align="center"><img src="https://skillicons.dev/icons?i=react,nodejs,fastapi,flask,django,html,css&perline=4" /></td>
-    <td align="center"><img src="https://skillicons.dev/icons?i=docker,azure,aws,git,linux,bash&perline=3" /></td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" /><br/>
+      <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" />
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/MATLAB-e16737?style=for-the-badge&logo=matlab&logoColor=white" />
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" /><br/>
+      <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" />
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+    </td>
   </tr>
 </table>
 
@@ -42,11 +62,11 @@
 
 | Project | Description | Tech Stack |
 |---------|-------------|------------|
-| 👁️ **[Driver Drowsiness Detection](https://github.com/PavinSP)** | Fine-tuned MobileNetV3-Small for eye-state classification on infrared images, achieving **98.2% accuracy** at ~185 FPS on CPU. Integrated MediaPipe for landmark tracking. | `PyTorch`, `OpenCV`, `MobileNetV3` |
-| 🔬 **[CellFoundry: Foundation Models](https://github.com/PavinSP)** | Benchmarked and fine-tuned vision foundation models (Micro-SAM, CellSAM) for adipocyte instance segmentation in brightfield microscopy. | `SAM Models`, `Medical Imaging` |
+| 👁️ **Driver Drowsiness Detection** | Fine-tuned MobileNetV3-Small for eye-state classification on infrared images, achieving **98.2% accuracy** at ~185 FPS on CPU. Integrated MediaPipe for landmark tracking. | `PyTorch`, `OpenCV`, `MobileNetV3` |
+| 🔬 **CellFoundry: Foundation Models** | Benchmarked and fine-tuned vision foundation models (Micro-SAM, CellSAM) for adipocyte instance segmentation in brightfield microscopy. | `SAM Models`, `Medical Imaging` |
 | 🧠 **[SniffTest: Disinfo Detection](https://github.com/PavinSP/SniffTest-DIAL-Hackathon)** | Fine-tuned DistilBERT behind a Dockerized REST API for real-time disinformation detection. Led AI/ML workstream at the DAAD Hackathon. | `DistilBERT`, `Docker`, `FastAPI` |
 | 🏗️ **[ConStructAI](https://github.com/PavinSP/hackathon)** | GenAI-powered information extraction and routing pipeline with human-in-the-loop verification to prevent hallucinations. | `GenAI`, `Python`, `Prompt Eng` |
-| 📄 **[LLM Resume Screening](https://github.com/PavinSP)** | Multi-step pipeline using LangChain and Azure OpenAI for structured information extraction. Published in TIJER (Vol 11, Issue 7). | `LangChain`, `Azure OpenAI` |
+| 📄 **LLM Resume Screening** | Multi-step pipeline using LangChain and Azure OpenAI for structured information extraction. Published in TIJER (Vol 11, Issue 7). | `LangChain`, `Azure OpenAI` |
 
 <br/>
 
