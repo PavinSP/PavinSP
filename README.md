@@ -5,6 +5,8 @@
 <div align="center">
   <h3><b>M.Sc. Artificial Intelligence @ THWS, Germany</b></h3>
   <p>I specialize in <b>Deep Learning, Computer Vision, and Natural Language Processing</b>, bridging the gap between rigorous mathematical foundations and robust engineering. I build AI platforms, cloud infrastructure, and data-driven solutions.</p>
+  <p>💼 <b>Recent Experience:</b> Programmer Analyst Trainee @ Cognizant Technology Solutions<br/>
+  🌱 <b>Currently Learning:</b> Deep Learning for CV (MathWorks, Coursera)</p>
   
   <a href="https://PavinSP.github.io/portfolio" target="_blank">
     <img src="https://img.shields.io/badge/🌐_Visit_My_Live_Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white" alt="Portfolio" />
@@ -55,6 +57,7 @@
 | Project | Description | Tech Stack |
 |---------|-------------|------------|
 | 👁️ **Driver Drowsiness Detection** | Fine-tuned MobileNetV3-Small for eye-state classification on infrared images, achieving **98.2% accuracy** at ~185 FPS on CPU. Integrated MediaPipe for landmark tracking. | `PyTorch`, `OpenCV`, `MobileNetV3` |
+| 🧬 **[GPU-Accelerated MoA Prediction](https://github.com/PavinSP/moa-prediction-thesis)** | Multi-label classification for Mechanism of Action (MoA) prediction using GPU-accelerated XGBoost, PCA, and VarianceThreshold. | `XGBoost`, `CUDA`, `Python` |
 | 🔬 **CellFoundry: Foundation Models** | Benchmarked and fine-tuned vision foundation models (Micro-SAM, CellSAM) for adipocyte instance segmentation in brightfield microscopy. | `SAM Models`, `Medical Imaging` |
 | 🧠 **[SniffTest: Disinfo Detection](https://github.com/PavinSP/SniffTest-DIAL-Hackathon)** | Fine-tuned DistilBERT behind a Dockerized REST API for real-time disinformation detection. Led AI/ML workstream at the DAAD Hackathon. | `DistilBERT`, `Docker`, `FastAPI` |
 | 🏗️ **[ConStructAI](https://github.com/PavinSP/hackathon)** | GenAI-powered information extraction and routing pipeline with human-in-the-loop verification to prevent hallucinations. | `GenAI`, `Python`, `Prompt Eng` |
