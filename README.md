@@ -23,26 +23,44 @@
 
 <table align="center">
   <tr>
-    <td align="center" width="33%"><b>AI & Machine Learning</b></td>
-    <td align="center" width="33%"><b>Programming & Automation</b></td>
-    <td align="center" width="33%"><b>Cloud & Tools</b></td>
+    <td align="center" width="25%"><b>Deep Learning & CV</b></td>
+    <td align="center" width="25%"><b>NLP, GenAI & ML</b></td>
+    <td align="center" width="25%"><b>Programming & Web</b></td>
+    <td align="center" width="25%"><b>Cloud, DevOps & Tools</b></td>
   </tr>
   <tr>
     <td align="center">
       <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" /><br/>
-      <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/Deep_Neural_Networks-000000?style=for-the-badge" /><br/>
+      <img src="https://img.shields.io/badge/MobileNetV3-000000?style=for-the-badge" /><br/>
+      <img src="https://img.shields.io/badge/SAM_Models-000000?style=for-the-badge" /><br/>
+      <img src="https://img.shields.io/badge/Computer_Vision-000000?style=for-the-badge" /><br/>
+      <img src="https://img.shields.io/badge/Reinforcement_Learning-000000?style=for-the-badge" /><br/>
+      <img src="https://img.shields.io/badge/Sensor_Fusion-000000?style=for-the-badge" />
+    </td>
+    <td align="center">
       <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" /><br/>
+      <img src="https://img.shields.io/badge/DistilBERT-000000?style=for-the-badge" /><br/>
+      <img src="https://img.shields.io/badge/OpenAI_APIs-412991?style=for-the-badge&logo=openai&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/LangChain-121212?style=for-the-badge&logo=langchain&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/Prompt_Engineering-30363D?style=for-the-badge" /><br/>
+      <img src="https://img.shields.io/badge/RAG_Pipelines-30363D?style=for-the-badge" /><br/>
+      <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" /><br/>
       <img src="https://img.shields.io/badge/CatBoost-000000?style=for-the-badge" /><br/>
-      <img src="https://img.shields.io/badge/LLM_APIs-0089D6?style=for-the-badge" /><br/>
-      <img src="https://img.shields.io/badge/Prompt_Engineering-30363D?style=for-the-badge" />
+      <img src="https://img.shields.io/badge/XGBoost-000000?style=for-the-badge" />
     </td>
     <td align="center">
       <img src="https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" /><br/>
       <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" /><br/>
+      <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" /><br/>
+      <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" /><br/>
       <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" /><br/>
       <img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" /><br/>
-      <img src="https://img.shields.io/badge/REST_APIs-00599C?style=for-the-badge" /><br/>
-      <img src="https://img.shields.io/badge/JSON-000000?style=for-the-badge" />
+      <img src="https://img.shields.io/badge/REST_APIs-00599C?style=for-the-badge" />
     </td>
     <td align="center">
       <img src="https://img.shields.io/badge/Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white" /><br/>
@@ -50,7 +68,9 @@
       <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" /><br/>
       <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" /><br/>
       <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" /><br/>
-      <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" />
+      <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/CI/CD_Concepts-000000?style=for-the-badge" /><br/>
+      <img src="https://img.shields.io/badge/JSON-000000?style=for-the-badge" />
     </td>
   </tr>
 </table>
