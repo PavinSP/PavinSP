@@ -14,7 +14,7 @@ I'm an **M.Sc. Artificial Intelligence** student at the Technical University of 
 
 ---
 
-### 💻 Tech Stack & Tools
+### 💻 Skills
 <p align="center">
   <img src="https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white" />
   <img src="https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" />
