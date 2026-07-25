@@ -56,7 +56,7 @@
 
 | Project | Description | Tech Stack |
 |---------|-------------|------------|
-| 🔬 **CellFoundry: Foundation Models** | Benchmarked and fine-tuned vision foundation models (Micro-SAM, CellSAM) for adipocyte instance segmentation in brightfield microscopy. | `SAM Models`, `Medical Imaging` |
+| 🔬 **CellFoundry: Foundation Models (Ongoing)** | Benchmarked and fine-tuned vision foundation models (Micro-SAM, CellSAM) for adipocyte instance segmentation in brightfield microscopy. | `SAM Models`, `Medical Imaging` |
 | 🏗️ **[ConStructAI](https://github.com/PavinSP/hackathon)** | GenAI-powered information extraction and routing pipeline with human-in-the-loop verification to prevent hallucinations. | `GenAI`, `Python`, `Prompt Eng` |
 | 🧠 **[SniffTest: Disinfo Detection](https://github.com/PavinSP/SniffTest-DIAL-Hackathon)** | Fine-tuned DistilBERT behind a Dockerized REST API for real-time disinformation detection. Led AI/ML workstream at the DAAD Hackathon. | `DistilBERT`, `Docker`, `FastAPI` |
 | 🧬 **[GPU-Accelerated MoA Prediction](https://github.com/PavinSP/moa-prediction-thesis)** | Multi-label classification for Mechanism of Action (MoA) prediction using GPU-accelerated XGBoost, PCA, and VarianceThreshold. | `XGBoost`, `CUDA`, `Python` |
