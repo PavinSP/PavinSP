@@ -8,9 +8,9 @@
   </style>
   <rect class='bg' x='0.5' y='0.5' width='494' height='194' rx='4.5' stroke='#38BDAE' stroke-opacity='0.15'/>
 
-  <text class='num' x='95' y='78'>749</text>
+  <text class='num' x='95' y='78'>1152</text>
   <text class='label' x='95' y='102'>Total Contributions</text>
-  <text class='date' x='95' y='120'>10 Aug 2025 - Present</text>
+  <text class='date' x='95' y='120'>8 Oct 2022 - Present</text>
 
   <line class='div' x1='177' y1='30' x2='177' y2='165'/>
 
@@ -21,7 +21,7 @@
 
   <line class='div' x1='318' y1='30' x2='318' y2='165'/>
 
-  <text class='num' x='400' y='78'>6</text>
+  <text class='num' x='400' y='78'>15</text>
   <text class='label' x='400' y='102'>Longest Streak</text>
-  <text class='date' x='400' y='120'>22 Jul 2026 - 27 Jul 2026</text>
+  <text class='date' x='400' y='120'>5 Aug 2023 - 19 Aug 2023</text>
 </svg>
