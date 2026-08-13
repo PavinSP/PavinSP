@@ -1,15 +1,19 @@
 #!/usr/bin/env python3
 """Generate a self-hosted streak-stats SVG using authenticated GitHub GraphQL.
-Immune to the third-party scraper failures of github-readme-streak-stats mirrors."""
+Immune to the third-party scraper failures of github-readme-streak-stats mirrors.
+
+Walks the full account history year-by-year (GraphQL's contributionsCollection
+caps each query at a 1-year window) so long-past streaks aren't silently dropped.
+"""
 import os, json, datetime, urllib.request
 
 TOKEN = os.environ["GH_TOKEN"]
 LOGIN = os.environ.get("GH_LOGIN", "PavinSP")
 
-QUERY = """
-query($login: String!) {
+CALENDAR_QUERY = """
+query($login: String!, $from: DateTime!, $to: DateTime!) {
   user(login: $login) {
-    contributionsCollection {
+    contributionsCollection(from: $from, to: $to) {
       contributionCalendar {
         totalContributions
         weeks { contributionDays { date contributionCount } }
@@ -19,6 +23,10 @@ query($login: String!) {
 }
 """
 
+CREATED_QUERY = """
+query($login: String!) { user(login: $login) { createdAt } }
+"""
+
 def gql(query, variables):
     req = urllib.request.Request(
         "https://api.github.com/graphql",
@@ -26,14 +34,36 @@ def gql(query, variables):
         headers={"Authorization": f"bearer {TOKEN}", "Content-Type": "application/json"},
     )
     with urllib.request.urlopen(req) as r:
-        return json.load(r)
+        payload = json.load(r)
+    if "errors" in payload:
+        raise RuntimeError(payload["errors"])
+    return payload["data"]
 
-data = gql(QUERY, {"login": LOGIN})["data"]["user"]["contributionsCollection"]["contributionCalendar"]
-total_all_time = data["totalContributions"]  # last 12 months window
-days = sorted(
-    (datetime.date.fromisoformat(d["date"]), d["contributionCount"])
-    for w in data["weeks"] for d in w["contributionDays"]
+created_at = datetime.datetime.fromisoformat(
+    gql(CREATED_QUERY, {"login": LOGIN})["user"]["createdAt"].replace("Z", "+00:00")
 )
+account_start_year = created_at.year
+
+now = datetime.datetime.now(datetime.timezone.utc)
+all_days = {}
+total_all_time = 0
+
+for year in range(account_start_year, now.year + 1):
+    win_from = datetime.datetime(year, 1, 1, tzinfo=datetime.timezone.utc)
+    win_to = min(datetime.datetime(year + 1, 1, 1, tzinfo=datetime.timezone.utc), now)
+    if win_from > now:
+        break
+    cal = gql(CALENDAR_QUERY, {
+        "login": LOGIN,
+        "from": win_from.isoformat(),
+        "to": win_to.isoformat(),
+    })["user"]["contributionsCollection"]["contributionCalendar"]
+    total_all_time += cal["totalContributions"]
+    for w in cal["weeks"]:
+        for d in w["contributionDays"]:
+            all_days[d["date"]] = d["contributionCount"]
+
+days = sorted((datetime.date.fromisoformat(dt), c) for dt, c in all_days.items())
 active = [d for d, c in days if c > 0]
 
 longest = cur = 1
@@ -59,12 +89,11 @@ while d in active_set:
     cur_start = d
     d -= datetime.timedelta(days=1)
 
-first_day = days[0][0]
+first_active_day = active[0]
 
 def fmt(d):
-    return d.strftime("%-d %b %Y") if os.name != "nt" else d.strftime("%d %b %Y")
+    return d.strftime("%-d %b %Y")
 
-# tokyonight palette matching the previous widget
 BG = "#0D1117"
 STROKE = "#38BDAE"
 NUM = "#38BDAE"
@@ -83,7 +112,7 @@ svg = f"""<svg xmlns='http://www.w3.org/2000/svg' width='495' height='195' viewB
 
   <text class='num' x='95' y='78'>{total_all_time}</text>
   <text class='label' x='95' y='102'>Total Contributions</text>
-  <text class='date' x='95' y='120'>{fmt(first_day)} - Present</text>
+  <text class='date' x='95' y='120'>{fmt(first_active_day)} - Present</text>
 
   <line class='div' x1='177' y1='30' x2='177' y2='165'/>
 
@@ -102,4 +131,5 @@ svg = f"""<svg xmlns='http://www.w3.org/2000/svg' width='495' height='195' viewB
 with open("streak.svg", "w") as f:
     f.write(svg)
 
-print(f"total={total_all_time} current_streak={cur_streak} longest={longest} ({best_start}..{best_end})")
+print(f"total_all_time={total_all_time} current_streak={cur_streak} "
+      f"longest={longest} ({best_start}..{best_end}) account_since={account_start_year}")
