@@ -8,14 +8,14 @@
   </style>
   <rect class='bg' x='0.5' y='0.5' width='494' height='194' rx='4.5' stroke='#38BDAE' stroke-opacity='0.15'/>
 
-  <text class='num' x='95' y='78'>1152</text>
+  <text class='num' x='95' y='78'>1158</text>
   <text class='label' x='95' y='102'>Total Contributions</text>
   <text class='date' x='95' y='120'>8 Oct 2022 - Present</text>
 
   <line class='div' x1='177' y1='30' x2='177' y2='165'/>
 
   <circle cx='247.5' cy='58' r='34' fill='none' stroke='#38BDAE' stroke-width='5'/>
-  <text class='num' x='247.5' y='68' font-size='30'>6</text>
+  <text class='num' x='247.5' y='68' font-size='30'>7</text>
   <text class='label' x='247.5' y='108' font-weight='700' fill='#38BDAE'>Current Streak</text>
   <text class='date' x='247.5' y='126'>8 Aug 2026 - Present</text>
 
