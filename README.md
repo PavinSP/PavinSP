@@ -6,7 +6,7 @@
   <h3><b>M.Sc. Artificial Intelligence @ THWS, Germany</b></h3>
   <p>I specialize in <b>Deep Learning, Computer Vision, and Natural Language Processing</b>, bridging the gap between rigorous mathematical foundations and robust engineering. I build AI platforms, cloud infrastructure, and data-driven solutions.</p>
   <p>💼 <b>Recent Experience:</b> Programmer Analyst Trainee @ Cognizant Technology Solutions<br/>
-  🌱 <b>Currently Learning:</b> Deep Learning for CV (MathWorks, Coursera)</p>
+  🌱 <b>Currently Learning:</b> Computer Vision Specialization (UCB, Coursera) &amp; RAG and Agentic AI Professional Certificate (IBM)</p>
   
   <a href="https://PavinSP.github.io/portfolio" target="_blank">
     <img src="https://img.shields.io/badge/🌐_Visit_My_Live_Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white" alt="Portfolio" />
@@ -29,6 +29,8 @@
 <img src="https://img.shields.io/badge/Scikit--Learn-161B22?style=for-the-badge&logo=scikit-learn&logoColor=58a6ff" />
 <img src="https://img.shields.io/badge/OpenAI_APIs-161B22?style=for-the-badge&logo=openai&logoColor=58a6ff" />
 <img src="https://img.shields.io/badge/LangChain-161B22?style=for-the-badge&logo=langchain&logoColor=58a6ff" />
+<img src="https://img.shields.io/badge/RAG-161B22?style=for-the-badge&logo=databricks&logoColor=58a6ff" />
+<img src="https://img.shields.io/badge/Prompt_Engineering-161B22?style=for-the-badge&logo=openai&logoColor=58a6ff" />
 <img src="https://img.shields.io/badge/OpenCV-161B22?style=for-the-badge&logo=opencv&logoColor=58a6ff" />
 <img src="https://img.shields.io/badge/NumPy-161B22?style=for-the-badge&logo=numpy&logoColor=58a6ff" />
 
@@ -57,7 +59,8 @@
 | Project | Description | Tech Stack |
 |---------|-------------|------------|
 | 🔬 **CellFoundry: Foundation Models (Ongoing)** | Benchmarked and fine-tuned vision foundation models (Micro-SAM, CellSAM) for adipocyte instance segmentation in brightfield microscopy. | `SAM Models`, `Medical Imaging` |
-| 🏗️ **[ConStructAI](https://github.com/PavinSP/hackathon)** | GenAI-powered information extraction and routing pipeline with human-in-the-loop verification to prevent hallucinations. | `GenAI`, `Python`, `Prompt Eng` |
+| 🎙️ **[Teach-Off (Ongoing)](https://github.com/PavinSP/titanom-hackathon)** | Voice app that tests genuine understanding via the Feynman technique: explain a topic to an AI "Grandma" persona, graded by Claude on whether you actually explained it, not just said the keywords. | `ElevenLabs`, `React`, `Claude API` |
+| 🏗️ **[SSOT: Construction-Project Triage](https://github.com/PavinSP/SSOT---Single-Source-of-Truth)** | AI triage system turning messy construction communication into verified, categorized, routable records, with zero-shot classification and live IFC/BIM parsing. Built at the ConStructAI Hackathon. | `HuggingFace`, `Streamlit`, `IFC/BIM` |
 | 🧠 **[SniffTest: Disinfo Detection](https://github.com/PavinSP/SniffTest-DIAL-Hackathon)** | Fine-tuned DistilBERT behind a Dockerized REST API for real-time disinformation detection. Led AI/ML workstream at the DAAD Hackathon. | `DistilBERT`, `Docker`, `FastAPI` |
 | 🧬 **[GPU-Accelerated MoA Prediction](https://github.com/PavinSP/moa-prediction-thesis)** | Multi-label classification for Mechanism of Action (MoA) prediction using GPU-accelerated XGBoost, PCA, and VarianceThreshold. | `XGBoost`, `CUDA`, `Python` |
 | 📄 **LLM Resume Screening** | Multi-step pipeline using LangChain and Azure OpenAI for structured information extraction. Published in TIJER (Vol 11, Issue 7). | `LangChain`, `Azure OpenAI` |
