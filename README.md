@@ -78,6 +78,10 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/PavinSP/PavinSP/main/streak.svg" width="98%" />
 </div>
+<br/>
+<div align="center">
+  <img src="./profile-3d-contrib/profile-night-green.svg" width="98%" alt="3D contribution graph" />
+</div>
 
 ---
 <div align="center">
