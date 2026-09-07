@@ -27,11 +27,24 @@
 
 ### Selected work
 
-- **[Teach It To Grandma](https://titanom-hackathon-8xts.vercel.app/)** — voice app grading whether you *actually* understand a topic, via the Feynman technique. Won the **ElevenLabs Sonderpreis**. · [code](https://github.com/PavinSP/titanom-hackathon)
-- **CellFoundry** — benchmarked and fine-tuned Micro-SAM / CellSAM for adipocyte instance segmentation in brightfield microscopy. *Ongoing.*
-- **[GPU-Accelerated MoA Prediction](https://github.com/PavinSP/moa-prediction-thesis)** — multi-label mechanism-of-action classification with GPU XGBoost. *Thesis.*
-- **LLM Resume Screening** — LangChain + Azure OpenAI extraction pipeline. Published in **TIJER**, Vol 11 Issue 7.
-- **[SniffTest](https://github.com/PavinSP/SniffTest-DIAL-Hackathon)** — DistilBERT behind a Dockerized API for disinformation detection. Led the AI/ML workstream at the DAAD Hackathon.
+🏆 &nbsp;**[Teach It To Grandma](https://titanom-hackathon-8xts.vercel.app/)** &nbsp;·&nbsp; <sub>`ElevenLabs` `React` `LLM grading`</sub>
+> Explain a topic aloud to one of six AI learner personas who push back on your jargon, then an LLM grading pass judges whether you *actually* explained it, or just said the words. **Winner of the ElevenLabs Sonderpreis**, Titanom Student Hackathon 2026.
+> [live demo](https://titanom-hackathon-8xts.vercel.app/) · [code](https://github.com/PavinSP/titanom-hackathon)
+
+🔬 &nbsp;**CellFoundry** &nbsp;·&nbsp; <sub>`Micro-SAM` `CellSAM` `microscopy`</sub>
+> Benchmarking and fine-tuning vision foundation models for adipocyte instance segmentation in brightfield microscopy. *Ongoing — private repo.*
+
+🏗️ &nbsp;**[SSOT — Single Source of Truth](https://github.com/PavinSP/SSOT---Single-Source-of-Truth)** &nbsp;·&nbsp; <sub>`zero-shot` `IFC/BIM` `Streamlit`</sub>
+> Construction runs on scattered emails, chats and handwritten notes; the delays and cost claims buried in them get re-typed by hand. This intercepts that stream, categorizes it, and prepares one-click updates into project systems. Built at the **ConStructAI Hackathon** (CAIRO.thws) to a challenge set by Prof. Christian Hofmann.
+
+🧬 &nbsp;**[GPU-Accelerated MoA Prediction](https://github.com/PavinSP/moa-prediction-thesis)** &nbsp;·&nbsp; <sub>`XGBoost` `CUDA` `multi-label`</sub>
+> Predicting the mechanism of action of drug compounds — a multi-label classification pipeline on GPU-accelerated XGBoost. **Bachelor thesis**, code and full report.
+
+🧠 &nbsp;**[SniffTest](https://github.com/PavinSP/SniffTest-DIAL-Hackathon)** &nbsp;·&nbsp; <sub>`DistilBERT` `FastAPI` `game`</sub>
+> A six-level browser game that trains people to recognize manipulation tactics — loaded language, false choices, fake consensus — with a five-class classifier giving live feedback. Built at the **DAAD Hackathon**; I owned the web frontend and the backend APIs behind the detection model.
+
+📄 &nbsp;**LLM Resume Screening** &nbsp;·&nbsp; <sub>`LangChain` `Azure OpenAI`</sub>
+> Multi-step extraction pipeline turning unstructured CVs into structured records. **Published in TIJER**, Vol 11 Issue 7.
 
 <br/>
 
