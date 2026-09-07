@@ -1,0 +1,30 @@
+name: Update 3D contribution graph
+
+# 02:00 UTC == 03:00 CET (winter) / 04:00 CEST (summer).
+# Cron does not follow DST, so the local time shifts by an hour in summer.
+on:
+  schedule:
+    - cron: '40 2 * * *'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: yoshi389111/github-profile-3d-contrib@v0.9.3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: PavinSP
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add profile-3d-contrib
+          git diff --quiet --cached || git commit -m "Update 3D contribution graph"
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main && git push && break
+            echo "push attempt $i failed, retrying..."
+            sleep $((i * 3))
+          done
