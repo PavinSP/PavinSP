@@ -1,0 +1,19 @@
+name: Update commit-time gist
+
+# Pinned to v1.2.0: upstream is unmaintained (last commit Feb 2024) but working.
+# GIST_ID is a secret; TIMEZONE is a repository *variable* (Settings > Variables).
+on:
+  schedule:
+    - cron: '10 3 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-gist:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Update gist
+        uses: maxam2017/productive-box@v1.2.0
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GIST_ID: ${{ secrets.GIST_ID }}
+          TIMEZONE: ${{ vars.TIMEZONE }}
