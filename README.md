@@ -49,6 +49,12 @@
 <br/>
 
 <div align="center">
+  <img src="./streak.svg" width="495" alt="Contribution streak" />
+</div>
+
+<br/>
+
+<div align="center">
   <img src="./profile-3d-contrib/profile-night-green.svg" width="100%" alt="3D contribution graph" />
 </div>
 
