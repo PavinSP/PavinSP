@@ -11,24 +11,21 @@
 <br/>
 
 ```console
-$ nvidia-smi
-+---------------------------------------------------------------------+
-| NVIDIA-SMI      Pavin SP           Driver: M.Sc. AI @ THWS          |
-|---------------------------------------------------------------------|
-| Focus            | Framework      | Utilization     | Status        |
-|=====================================================================|
-| Computer Vision  | PyTorch / SAM  | ███████████ 98% | Running       |
-| NLP / RAG        | HuggingFace    | ██████████░ 91% | Running       |
-| Agentic AI       | LangChain      | ████████░░░ 76% | Learning      |
-| MLOps / Cloud    | Docker / Azure | ███████░░░░ 64% | Running       |
-|---------------------------------------------------------------------|
-| Processes                                                           |
-|---------------------------------------------------------------------|
-| CellFoundry      | vision foundation models (SAM)   | active        |
-| MoA-Prediction   | multi-label XGBoost, GPU         | thesis        |
-| TeachItToGrandma | ElevenLabs Sonderpreis           | winner        |
-| SSOT             | zero-shot triage, IFC/BIM        | hackathon     |
-+---------------------------------------------------------------------+
+$ python train.py --model pavin --epochs inf
+
+Epoch 1/∞  ━━━━╸─────────────────  loss: 1.842  acc: 0.412
+          └─ 2022  B.Tech AI & Data Science · Anna University
+Epoch 2/∞  ━━━━━━━━━╸────────────  loss: 0.914  acc: 0.690
+          └─ 2023  Thesis: MoA prediction on GPU-XGBoost
+Epoch 3/∞  ━━━━━━━━━━━━━╸────────  loss: 0.451  acc: 0.803
+          └─ 2024  Cognizant trainee · 2 papers in TIJER
+Epoch 4/∞  ━━━━━━━━━━━━━━━━━━╸───  loss: 0.186  acc: 0.915
+          └─ 2025  M.Sc. Artificial Intelligence @ THWS
+Epoch 5/∞  ━━━━━━━━━━━━━━━━━━━━━━  loss: 0.031  acc: 0.983
+          └─ 2026  CellFoundry · ElevenLabs Sonderpreis
+
+>>> EarlyStopping: patience exceeded — still improving, not stopping
+>>> Checkpoint saved: Würzburg, DE · open to research & HiWi roles
 ```
 
 <br/>
