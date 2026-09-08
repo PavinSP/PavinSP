@@ -25,7 +25,16 @@ Epoch 5/∞  ━━━━━━━━━━━━━━━━━━━━━━ 
           └─ 2026  CellFoundry · ElevenLabs Sonderpreis
 
 >>> EarlyStopping: patience exceeded — still improving, not stopping
->>> Checkpoint saved: Würzburg, DE · open to research & HiWi roles
+>>> Checkpoint saved: Würzburg, DE
+
+$ git status
+On branch main
+Your branch is ahead of 'origin/comfort-zone' by 5 commits.
+
+  open to:   research positions · HiWi roles · hard problems
+  reach me:  pavinsp122002@gmail.com
+
+nothing to commit, working tree clean
 ```
 
 <br/>
