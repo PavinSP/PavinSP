@@ -11,16 +11,24 @@
 <br/>
 
 ```console
-[pavin@thws]-(~) └─► neofetch
-┌──────────────────────────────────────────────────────────┐
-│  Role      Deep Learning · Computer Vision · NLP         │
-│  Now       CellFoundry — vision foundation models        │
-│  Learning  Computer Vision (UCB) · RAG & Agentic AI (IBM)│
-│  Past      Programmer Analyst Trainee @ Cognizant        │
-│  Stack     PyTorch · HuggingFace · LangChain · OpenCV    │
-│            Python · SQL · React · Docker · Azure         │
-│  Location  Würzburg, Germany                             │
-└──────────────────────────────────────────────────────────┘
+$ nvidia-smi
++---------------------------------------------------------------------+
+| NVIDIA-SMI      Pavin SP           Driver: M.Sc. AI @ THWS          |
+|---------------------------------------------------------------------|
+| Focus            | Framework      | Utilization     | Status        |
+|=====================================================================|
+| Computer Vision  | PyTorch / SAM  | ███████████ 98% | Running       |
+| NLP / RAG        | HuggingFace    | ██████████░ 91% | Running       |
+| Agentic AI       | LangChain      | ████████░░░ 76% | Learning      |
+| MLOps / Cloud    | Docker / Azure | ███████░░░░ 64% | Running       |
+|---------------------------------------------------------------------|
+| Processes                                                           |
+|---------------------------------------------------------------------|
+| CellFoundry      | vision foundation models (SAM)   | active        |
+| MoA-Prediction   | multi-label XGBoost, GPU         | thesis        |
+| TeachItToGrandma | ElevenLabs Sonderpreis           | winner        |
+| SSOT             | zero-shot triage, IFC/BIM        | hackathon     |
++---------------------------------------------------------------------+
 ```
 
 <br/>
